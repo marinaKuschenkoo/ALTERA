@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    /*font-weight: 400;*/
+    src: url("../fonts/proximanova_regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'El Messiri';
+    src: url('../fonts/ElMessiri.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Garamond';
+    src: url('../fonts/garamond.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto.ttf') format('ttf');
+}
