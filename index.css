@@ -1219,7 +1219,6 @@ bottom: -30px;
   background-image: url("https://i.postimg.cc/Jn8HgrSb/visual-10.jpg");
 }
 .type__item:nth-child(2n){
-  margin-right: 30px;
   background-image: url("https://i.postimg.cc/SQ7fm5rS/shapka-7.jpg");
 }
 .type__item_text{
@@ -1244,12 +1243,17 @@ bottom: -30px;
 @media (max-width:500px) {
   .types{
     flex-direction: column;
+    margin: 0;
   }
   .type__item{
     width: 100vw;
     height:200px;
     margin-bottom: 10px;
-    background-size: 100%;
+    margin-right: 0;
+    background-size: 100vw;
+  }
+  .type__item:first-child {
+    margin-right: 0;
   }
   .type__item_text{
     font-size: 10px;
