@@ -1216,11 +1216,11 @@ bottom: -30px;
 }
 .type__item:first-child{
   margin-right: 30px;
-  background-image: url("./img/cases/visual_10.jpg");
+  background-image: url("https://i.postimg.cc/Jn8HgrSb/visual-10.jpg");
 }
 .type__item:nth-child(2n){
   margin-right: 30px;
-  background-image: url("./img/cases/shapka_7.JPG");
+  background-image: url("https://i.postimg.cc/SQ7fm5rS/shapka-7.jpg");
 }
 .type__item_text{
   opacity: 0;
