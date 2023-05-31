@@ -1304,7 +1304,7 @@ bottom: -30px;
 }
 
 @media (max-width:1024px) {
-  .popup__item{
+  .popup__img{
     max-width: 50vw;
   }
 }
