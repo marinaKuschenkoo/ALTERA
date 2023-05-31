@@ -960,6 +960,12 @@
   .services__item{
     max-width: 405px;
   }
+  .services__item-popup {
+    max-width: 1072px;
+  }
+  .popup__close{
+    right: 6px;
+  }
 }
 
 
@@ -973,6 +979,7 @@
   }
   .services__item{
     max-width: 500px;
+    margin-right: 0;
   }
   .services__items{
     flex-direction: column;
@@ -983,6 +990,7 @@
   }
   .about__img {
     max-width: 400px;
+    max-height: 300px;
 }
 .info{
   max-width: 780px;
@@ -1030,8 +1038,18 @@
 }
 }
 
+@media (max-width: 780px){
+  .about{
+    max-width: 700px;
+  }
+  .price__plus:nth-child(n+5){
+    margin-left:50px;
+  }
+  
+}
 
-@media (max-width: 426px){
+
+@media (max-width: 500px){
   .header{
     max-width: 425px;
     flex-direction: column;

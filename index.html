@@ -406,7 +406,7 @@
         function init() {
         
             myMap = new ymaps.Map("map", {
-                center: [43.238253, 76.945465], // Координаты центра карты
+                center: [44.948056, 34.104167], // Координаты центра карты
                 zoom: 13 // Маштаб карты
             }); 
         
@@ -414,7 +414,7 @@
                 new ymaps.control.ZoomControl()  // Добавление элемента управления картой
             ); 
         
-            myPlacemark = new ymaps.Placemark([43.238253,76.945465], { // Координаты метки объекта
+            myPlacemark = new ymaps.Placemark([44.948056, 34.104167], { // Координаты метки объекта
                 balloonContent: "<div class='ya_map'>Заезжайте в гости!</div>" // Подсказка метки
             }, {
                 preset: "twirl#redDotIcon" // Тип метки
