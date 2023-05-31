@@ -26,6 +26,8 @@ arrowLeft.addEventListener("click", () => {rotate(1)})
     }
     }*/
 
+
+
 const acClick=document.querySelector('.services__item-accounting');
 const teamClick=document.querySelector('.services__item-team');
 const smmClick=document.querySelector('.services__item-smm');
@@ -44,6 +46,7 @@ const popups=Array.from(document.querySelectorAll('.popup'));
 const closeButtons=Array.from(document.querySelectorAll('.popup__exit-button'));
 const pricePopup=document.querySelector('.popup__price')
 const priceButtons=Array.from(document.querySelectorAll('.price__ask'));
+
 
 function open(popup){
     popup.classList.add('popup_active');
@@ -70,3 +73,4 @@ priceButtons.forEach(btn=>{
         open(pricePopup)
     })
 })
+
