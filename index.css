@@ -1038,7 +1038,6 @@ body{
 .price__pros{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 }
 
@@ -1046,9 +1045,9 @@ body{
   .about{
     max-width: 700px;
   }
-  .price__plus:nth-child(n+5){
+ /* .price__plus:nth-child(n+5){
     margin-left:50px;
-  }
+  }*/
   
 }
 
@@ -1169,9 +1168,9 @@ body{
 .price__plus{
   font-size: 10px;
 }
-.price__plus:nth-child(n+6){
+/*.price__plus:nth-child(n+6){
   margin-left:30px;
-}
+}*/
 .price__pros{
   justify-content: flex-start;
 }
