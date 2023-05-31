@@ -1017,7 +1017,7 @@
 .price__cons{
   margin-left: 50px;
 }
-.price__plus:nth-child(n+5){
+.price__plus:nth-child(n+6){
   margin-left:50px;
 }
 .price__ask{
@@ -1142,22 +1142,28 @@
 .price__plus{
   font-size: 10px;
 }
+.price__plus:nth-child(n+6){
+  margin-left:30px;
+}
+.price__pros{
+  justify-content: flex-start;
+}
 .price__cons{
+  margin-top: 16px;
   margin-left: 30px;
   padding: 0;
 }
 .pluses__items{
   max-width: 425px;
 }
-#map{
-  width: 200px;
-  height: 345px;
-}
-.ymaps-2-1-79-map{
-  height: 345px;
-}
 .footer__list{
   padding-left: 20px;
+}
+.footer__office{
+  width: 200px;
+}
+.price__ask{
+bottom: -30px;
 }
 
 }
