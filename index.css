@@ -1030,9 +1030,9 @@ body{
 .price__cons{
   margin-left: 50px;
 }
-.price__plus:nth-child(n+6){
+/*.price__plus:nth-child(n+6){
   margin-left:50px;
-}
+}*/
 .price__ask{
   bottom:0;
 }
