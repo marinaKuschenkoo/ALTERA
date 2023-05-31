@@ -993,7 +993,7 @@ body{
     max-width: 600px;
   }
   .about__img {
-    max-width: 400px;
+    width:100%;
     max-height: 300px;
 }
 .info{
@@ -1151,13 +1151,15 @@ body{
 .form__submit{
   margin: 0 auto;
 }
-
+.price{
+  width: 100vw;
+}
 .price__items{
   padding: 0;
 }
 .price__item{
   max-height: 300px;
-  width: 425px;
+  width: 100vw;
   margin-bottom: 50px;
 }
 .price__header{
